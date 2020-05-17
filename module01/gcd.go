@@ -4,6 +4,9 @@ package module01
 func GCD(a, b int) int {
 	for b != 0 {
 		a, b = b, a%b
+		// tmp = a
+		// a = b
+		// b = tmp%a
 	}
 	return a
 }
