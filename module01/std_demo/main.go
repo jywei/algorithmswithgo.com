@@ -14,4 +14,9 @@ func main() {
 		gcd := module01.GCD(a, b)
 		fmt.Println(gcd)
 	}
+
+	// // just read
+	// var n int
+	// fmt.Scanf("%d", &n)
+	// fmt.Printf("Number is %d\n", n)
 }
